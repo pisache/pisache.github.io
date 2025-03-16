@@ -1,75 +1,74 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://monumental-chimera-b1ace3.netlify.app/`,
+    siteUrl: `https://pisache.github.io/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'HoJun Lee',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `HoJun Lee | Embedded System / Firmware Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Embedde System and Firmware Engineer at Freshtech`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    //author: ``,
     // Optional: Github account URL
-    github: `https://github.com/RyanFitzgerald`,
+    github: `https://github.com/pisache`,
     // Optional: LinkedIn account URL
-    linkedin: `https://github.com/RyanFitzgerald/devfolio`,
+    linkedin: `https://www.linkedin.com/in/hojun-lee-16757a1b6/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm a passionate maker who loves building things with my own hands. This passion led me to become an embedded systems engineer, where I write firmware and solder wires. Currently, I am working on a company project that utilizes ZephyrOS and nRF-based boards to develop a UWB system. In the future, I aim to enhance my skills in PCB design to become a well-rounded embedded systems developer`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'U-Fresh (Current Project)',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A company project that develops a livestock monitoring system using UWB embedded ear tag. We are co-developing the system with Samsung LSI, using their Exynos Connect U100 UWB chip.',
+        //link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'ExtensionKit',
+        name: 'Numerical Method Visualizer',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://extensionkit.io/?ref=devfolio',
+          'A web-app team project using react to visualize multiple numerical methods. On backend, I have used mathjax to create algorithm to calculate the interpolations including Simpson\'s Rule, Trapezoid Rule and Lagrange Polynomial Interpolations. On the frontend, I have created graphing methods for said formulas and the website footer.',
+        link: 'https://sfuosdev.github.io/Macm316/',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Harrys Tools',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'An outsource project for Harry\'s Education. Harry\'s Education is a private education institution, or Hagwon(학원), which requires a heavy load of paper works to provide catered education for the students. I have created a personalized document automation tools on demand with python and hwp API.',
+        link: 'https://github.com/pisache/harrys-tools',
       },
+      {
+        name: 'University class Projects',
+        description:
+          'and other number of class projects including \"Diffusion model for enhancing CT images (Machine Learning, Python)\", \"0\\1 Knapsack problem solver(Distributed system, C++)\", \"Bytetools Web Application(Outsource web-app, react)\" and \"Youtube trending video prediction model(Machine Learning, Python)\"',
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Freshtech',
+        description: 'Emebedded System / Firmware Engineer, January 2025 - Present',
+        link: 'https://www.freshtech.kr/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Embedded System',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'ZephyrOS, nRF52, STM32, ARM Cortex-M, C/C++, Assembly(AMD64), Linux, Rasbian, Arduino',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Data Science',
+        description: 'Python, NumPy, Pandas, Matlab',
+      },
+      {
+        name: 'Web development',
+        description: 'Javascript(es6), Typesrcipt, React, Node.js, Next.js, jest, HTML, CSS',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'PostgreSQL, MySQL, SQLite, Docker',
       },
     ],
   },

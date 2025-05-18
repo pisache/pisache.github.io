@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `HoJun Lee | Embedded System / Firmware Engineer`,
     // Description that goes under your name in main bio
-    description: `Embedde System and Firmware Engineer at Freshtech`,
+    description: `Embedded System and Firmware Engineer at Freshtech`,
     // Optional: Twitter account handle
     //author: ``,
     // Optional: Github account URL
@@ -19,10 +19,15 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'U-Fresh (Current Project)',
+        name: 'UWB Livestock health monitoring (Current Project)',
         description:
           'A company project that develops a livestock monitoring system using UWB embedded ear tag. We are co-developing the system with Samsung LSI, using their Exynos Connect U100 UWB chip.',
         //link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Atmosphere Sensor Developments',
+        description:
+          'Main Job I do at Freshtech. I write firmware for multiple atmospheric sensors for sensor node. I also design the actual product that is manufactured.'
       },
       {
         name: 'Numerical Method Visualizer',
@@ -55,7 +60,7 @@ module.exports = {
       {
         name: 'Embedded System',
         description:
-          'ZephyrOS, nRF52, STM32, ARM Cortex-M, C/C++, Assembly(AMD64), Linux, Rasbian, Arduino',
+          'ZephyrOS, nRF52, ESP32, STM32, C/C++, Assembly(AMD64), Linux',
       },
       {
         name: 'Data Science',

@@ -27,7 +27,8 @@ module.exports = {
       {
         name: 'Atmosphere Sensor Developments',
         description:
-          'Main Job I do at Freshtech. I write firmware for multiple atmospheric sensors for sensor node. I also design the actual product that is manufactured.'
+          'Main Job I do at Freshtech. I write firmware for multiple atmospheric sensors for sensor node. I also design the actual product that is manufactured.',
+          link: '',
       },
       {
         name: 'Numerical Method Visualizer',

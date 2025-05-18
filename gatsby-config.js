@@ -22,7 +22,7 @@ module.exports = {
         name: 'UWB Livestock health monitoring (Current Project)',
         description:
           'A company project that develops a livestock monitoring system using UWB embedded ear tag. We are co-developing the system with Samsung LSI, using their Exynos Connect U100 UWB chip.',
-        //link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: '',
       },
       {
         name: 'Atmosphere Sensor Developments',
@@ -45,7 +45,8 @@ module.exports = {
         name: 'University class Projects',
         description:
           'and other number of class projects including \"Diffusion model for enhancing CT images (Machine Learning, Python)\", \"0\\1 Knapsack problem solver(Distributed system, C++)\", \"Bytetools Web Application(Outsource web-app, react)\" and \"Youtube trending video prediction model(Machine Learning, Python)\"',
-      }
+        link: '',
+        }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
